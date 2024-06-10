@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 200vh;
+    flex-wrap: wrap;
+    background: url("https://img.freepik.com/free-photo/ingredients-near-pizza_23-2147772081.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background: url(background-photo.jpg) center center cover no-repeat fixed;
+}
+
+   h1{
+
+     color: white;
+      margin-top: 30px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.f1{
+    text-align: center;
+    margin-top: 100px;
+
+    
+    
+    
+}
+
+h2{
+    font-size: 29px;
+    color:red;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+p{
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+p1{
+    font-size: 28px;
+    color: white;
+    font-family:  sans-serif;
+    font-weight: bold;
+}
+button{
+    margin-top: 5px;
+    margin-left: 800px;
+    width: 15%;
+    height: 50px;
+    font-size: 20px;
+    font-family: serif;
+    font-weight: bold;
+    flex-wrap: wrap;
+    border-radius: 7px;
+    background-color: salmon;
+    
+    
+}
+button:hover{
+    
+    background-color: cadetblue;
+    transition: 4s;
+    color: white;
+}
+.container{
+    display: flex;
+    margin-left: 60px;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: nowrap;
+}
+.card-section{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    margin-top: 80px;
+    
+    
+    
+}
+.card{
+   box-shadow: 0px 0px 10px; 
+   color: white;
+   padding: 10px;
+   padding-bottom: 40px;
+   transition: 3s;
+   
+    
+}
+h5{
+    color: azure;
+    text-align: center;
+    font-size: 28px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}
+h6{
+    color: palevioletred;
+    font-size: 26px;
+}
+.card:hover{
+    
+    transform: scale(1.1);
+}
+@media screen and (max-width:300px){
+    .f1{
+      margin-left: 130px;
+      flex-wrap: wrap;
+      
+      }
+        h1{
+            margin-left: 180px;
+            
+        }
+    
+        .card-section{
+            margin-left: 100px;
+            width: 20%;
+            display: inline-flexbox;
+            
+        }
+        button{
+
+           background-color: aqua;
+        
+        }
+        body{
+            width: 200%;
+            flex-wrap: wrap;
+        }
+        .card{
+            display: flex;
+            flex-wrap: wrap;
+            max-width: 300px;
+            padding-left: -400px;
+            display: inline-flexbox;
+
+        }
+}
